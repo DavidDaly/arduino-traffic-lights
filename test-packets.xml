@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+  <loop>false</loop>
+  <repeat_times>1</repeat_times>
+  <repeat_period>500</repeat_period>
+  <packets_list>
+    <packet name="All on">
+      <payload>0252314131473103</payload>
+    </packet>
+    <packet name="Amber">
+      <payload>0252304131473003</payload>
+    </packet>
+    <packet name="Green">
+      <payload>0252304130473103</payload>
+    </packet>
+    <packet name="All off">
+      <payload>0252304130473003</payload>
+    </packet>
+    <packet name="Red">
+      <payload>0252314130473003</payload>
+    </packet>
+    <packet name="Red/Amber">
+      <payload>0252314131473003</payload>
+    </packet>
+    <packet name="Amber/Green">
+      <payload>0252304131473103</payload>
+    </packet>
+  </packets_list>
+</data>
