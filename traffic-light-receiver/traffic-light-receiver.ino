@@ -19,7 +19,7 @@ void loop() {
   static int   currentMessagePos = 0;
   static bool  stxReceived = false;
   static int   data = 0;
-  
+
   if (Serial.available() > 0)
   {
     data = Serial.read();
@@ -31,7 +31,7 @@ void loop() {
     }
     else if ( (data == ETX) && stxReceived)
     {
-      currentMessage[currentMessagePos] = 0;
+      currentMessage[currentMessagePos] = 0; // Null terminate
       ProcessMessage(currentMessage);
       currentMessagePos = 0;
       stxReceived = false;
@@ -60,7 +60,7 @@ void ProcessMessage(char* message)
    * 
    * Examples:
    *   R0A0G1 -> Green on, other lights off
-   *   R1A1G0 -> Red and Amber on, Green of
+   *   R1A1G0 -> Red and Amber on, Green off
    */
 
   // Red light
