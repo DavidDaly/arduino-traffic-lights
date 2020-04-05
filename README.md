@@ -1,6 +1,6 @@
 # Arduino Traffic Lights
 
-This repository has the source code and circuit diagrams to build traffic lights.
+This repository has the source code and circuit diagrams to build toy traffic lights.
 
 # Source Code
 
