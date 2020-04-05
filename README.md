@@ -24,7 +24,7 @@ You may need to adjust the values of the current limiting resistors to achieve a
 
 A potentiometer is used to provide an input from 0V to 5V to A0 on the Arduino in order to adjust the speed of the traffic light sequence.
 
-!(https://github.com/DavidDaly/arduino-traffic-lights/blob/master/circuit-diagram.png)
+![Circuit Diagram](circuit-diagram.png)
 
 # Veroboard
 
@@ -32,7 +32,7 @@ An example veroboard layout is included which groups each set of 5 LEDs together
 
 It was created using VeeCAD which can be downloaded [here](https://veecad.com/downloads.html). The source file is included in the VeeCAD folder.
 
-!(https://github.com/DavidDaly/arduino-traffic-lights/blob/master/veroboard-layout.png)
+![Veroboard Layout](veroboard-layout.png)
 
 # Component Listing
 
