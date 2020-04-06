@@ -2,7 +2,7 @@
 
 This repository has the source code and circuit diagrams to build toy traffic lights.
 
-# Source Code
+## Source Code
 
 The source code is uses the Arduino outputs as follows:
 - D13: Green light
@@ -15,7 +15,7 @@ There are three versions of the source code:
 2. traffic-light-transmitter: as per the stand-alone version but also sends commands via serial port to control a second traffic light
 3. traffic-light-receiver: version that does not run by itself but switches lights based on commands received from the transmitter version
 
-# Circuit
+## Circuit
 
 The circuit diagram was created using www.circuit-diagram.org/ and can be accessed [here](https://crcit.net/c/985ce7fabe784014be060ab223fa8f4e)
 
@@ -26,7 +26,7 @@ A potentiometer is used to provide an input from 0V to 5V to A0 on the Arduino i
 
 ![Circuit Diagram](circuit-diagram.png)
 
-# Veroboard
+## Veroboard
 
 An example veroboard layout is included which groups each set of 5 LEDs together and can be mounted on the inside of a housing.
 
@@ -34,6 +34,6 @@ It was created using VeeCAD which can be downloaded [here](https://veecad.com/do
 
 ![Veroboard Layout](veroboard-layout.png)
 
-# Component Listing
+## Component Listing
 
 TBC
