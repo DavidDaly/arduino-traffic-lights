@@ -13,12 +13,12 @@ const int STX = 0x02;
 const int ETX = 0x03;
 
 struct SequenceStep {
-        int Red;
-        int Amber;
-        int Green;
-        int WaitTime;
-        bool AdjustWaitTime;
-        String TransmitMessage;
+        int Red;    // State of red light
+        int Amber;  // State of amber light
+        int Green;  // State of green light
+        int WaitTime; // How long to say on this step
+        bool AdjustWaitTime; // Whether to adjust the wait time based on the value of analog input 0
+        String TransmitMessage; // Message to transmit to remote traffic light
 };
 
 
